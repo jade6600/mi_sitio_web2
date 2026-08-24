@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header.index {
+    background-color: hotpink;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+header.index span {
+    color:black(255,255,255);
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+header.nacimiento {
+    color:black(255,255,255);
+    font-size:22px;
+    font-weight: bold;
+    text-align: center;
+}
+.contenedor {
+    display: flex;
+
+    /* Dirección */
+    flex-direction: row;
+
+    /* Alineación horizontal */
+    justify-content: center;
+
+    /* Alineación vertical */
+    align-items: center;
+
+    /* Separación */
+    gap: 20px;
+}
