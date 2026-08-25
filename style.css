@@ -301,7 +301,6 @@ footer p {
     header {
         padding: 1rem 4rem;
     }
-=======
 * {
     margin: 0;
     padding: 0;
@@ -344,5 +343,4 @@ header.nacimiento {
 
     /* Separación */
     gap: 20px;
->>>>>>> 3ddb6c0c48fd433ef95523b8f8e5ece8439ace7b
 }
